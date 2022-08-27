@@ -21,7 +21,8 @@ public class Pyramid {
             }
             else
                 s.append(1);
-            s.append("\n");
+            if(i != cathetusLength)
+                s.append("\n");
         }
         System.out.println(s);
     }
