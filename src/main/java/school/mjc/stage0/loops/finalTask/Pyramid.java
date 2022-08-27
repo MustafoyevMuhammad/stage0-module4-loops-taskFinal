@@ -2,6 +2,9 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Pyramid {
     public void printPyramid(int cathetusLength) {
+        if(cathetusLength == 0){
+            return;
+        }
         StringBuilder copy = new StringBuilder();
         StringBuilder s = new StringBuilder();
         for (int i = 1; i <= cathetusLength; i++) {
